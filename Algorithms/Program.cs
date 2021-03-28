@@ -7,7 +7,7 @@ namespace Algorithms
         static void Main(string[] args)
         {
             var array = CreateArray();
-            array = BubbleSort.Sort(array);
+            array = InsertionSort.Sort(array);
             PrintArray(array);
         }
 
