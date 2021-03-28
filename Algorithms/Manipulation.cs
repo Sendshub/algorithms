@@ -3,11 +3,14 @@ namespace Algorithms
 {
     public static class Manipulation<T>
     {
-        public static void Swap(T[] array, int i, int j)
+        public static void Swap(T[] array, int left, int right)
         {
-            T temp = array[i];
-            array[i] = array[j];
-            array[j] = temp;
+            if (left != right)
+            {
+                T temp = array[left];
+                array[left] = array[right];
+                array[right] = temp;
+            }
         }
     }
 }
