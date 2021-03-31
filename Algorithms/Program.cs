@@ -7,7 +7,7 @@ namespace Algorithms
         static void Main(string[] args)
         {
             var array = CreateArray();
-            array = SelectionSort.Sort(array);
+            array = QuickSort.Sort(array);
             PrintArray(array);
         }
 
